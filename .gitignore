@@ -1,0 +1,53 @@
+# Dataset 폴더 - 개인정보 및 민감한 데이터 포함
+dataset/
+
+# 결과 파일 - 민감한 분석 결과 포함
+results/
+
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 환경 설정
+.env
+.venv
+env/
+venv/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS 관련
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+*~
+
+# 모델 파일 (용량이 큰 경우)
+*.pkl
+*.h5
+*.model
+
+# 플롯/그래프 (선택적으로 제외)
+figures/
